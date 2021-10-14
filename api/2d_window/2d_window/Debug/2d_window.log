@@ -1,0 +1,9 @@
+﻿  main.cpp
+main.obj : error LNK2005: "long __stdcall DlgProc(struct HWND__ *,unsigned int,unsigned int,long)" (?DlgProc@@YGJPAUHWND__@@IIJ@Z) уже определен в DrawMouse.obj
+main.obj : error LNK2005: "long __stdcall InfProc(struct HWND__ *,unsigned int,unsigned int,long)" (?InfProc@@YGJPAUHWND__@@IIJ@Z) уже определен в DrawMouse.obj
+main.obj : error LNK2005: _WinMain@16 уже определен в DrawMouse.obj
+main.obj : error LNK2005: "struct HINSTANCE__ * hInst" (?hInst@@3PAUHINSTANCE__@@A) уже определен в DrawMouse.obj
+main.obj : error LNK2005: "struct HPEN__ * hPen" (?hPen@@3PAUHPEN__@@A) уже определен в DrawMouse.obj
+main.obj : error LNK2005: "int fDraw" (?fDraw@@3HA) уже определен в DrawMouse.obj
+main.obj : error LNK2005: "struct tagPOINT ptPrevious" (?ptPrevious@@3UtagPOINT@@A) уже определен в DrawMouse.obj
+D:\2d_window\2d_window\Debug\2d_window.exe : fatal error LNK1169: обнаружен многократно определенный символ - один или более
